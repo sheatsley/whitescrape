@@ -22,7 +22,7 @@ Requirements:
 - Selenium `pip install selenium`
 
 To scrape off the wiki (most likely broken at this point), simply uncomment
-line 262 (```compass()``) and run ```python2 whitescrape.py```.
+line 262 (```compass()```) and run ```python2 whitescrape.py```.
 
 To show the best character and equipment combinations, just run ```python2
 whitescrape.py```. To see how the weights influence the scores, manipulate the
