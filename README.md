@@ -1,6 +1,6 @@
 ## Whitescrape
 
-This is whitescrape -- a repo for obtaining, parsing, and reasoning character
+This is *Whitescrape* - a repo for obtaining, parsing, and reasoning character
 stats in [White
 Noise 2](https://store.steampowered.com/app/503350/White_Noise_2/). White Noise
 is a cooperative horror game where investigators have to solve puzzles and
