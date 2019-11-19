@@ -2,12 +2,12 @@
 
 import json
 import string
-from selenium import webdriver
-from selenium.webdriver.common.by import By
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
 
 def compass():
+    from selenium import webdriver
+    from selenium.webdriver.common.by import By
+    from selenium.webdriver.support.ui import WebDriverWait
+    from selenium.webdriver.support import expected_conditions as EC
 
     adblock = webdriver.FirefoxProfile()
     adblock.add_extension('/Users/Ryan/Library/Application Support/Firefox/Profiles/t2wo4ddp.default-1462685868246/extensions/{d10d0bf8-f5b5-c8b4-a8b2-2b9879e08c5d}.xpi')
@@ -168,8 +168,8 @@ def scream():
     idol_weights =         {'Horror':             2.0/2, 'Range':            1.0/2}
 
     # final stats are calculated as investigator/creature stat + (flashlight/idol stat) * weight
-    waagh_weights = {'Speed':        0.5, 'Endurance':   0.5, 'Range':   1.0, 
-                     'Battery Life': 1.0, 'Exploration': 0.5, 'Stealth': 0.5}
+    waagh_weights = {'Speed':        1.0, 'Endurance':   1.0, 'Range':   1.0, 
+                     'Battery Life': 1.0, 'Exploration': 1.0, 'Stealth': 1.0}
 
     for investigator in investigator_data:
         score = 0.0
